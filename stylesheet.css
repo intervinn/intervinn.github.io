@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
 
-.mydiv {
+.maindiv {
     background-color: rgb(34, 33, 58);
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -9,10 +9,15 @@
     margin: 0 auto;
     display: block;
     border: solid 5px rgba(255, 255, 255, 0.562);
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
-    margin-top: 5cm;
+    margin-top: 2cm;
     transition-duration: 250ms;
+}
+
+img {
+    height:100px;
+    width: 100px;
 }
 
 .mybtn {
@@ -24,9 +29,8 @@
     margin: 0 auto;
     display: block;
     border: solid 5px rgba(255, 255, 255, 0.562);
-    border-radius: 50px;
     text-align: center;
-    margin-top: 10cm;
+    margin-top: 2cm;
     transition-duration: 250ms;
 }
 
@@ -48,9 +52,8 @@ p {
     margin: 50px auto;
 }
 
-.mydiv:hover {
+.maindiv:hover {
     border-color: white;
-    transition: height 6cm, width 11cm ;
     background-color: rgb(75, 73, 122);
     box-shadow: 15px 0px 0px rgb(36, 36, 61);
 }
