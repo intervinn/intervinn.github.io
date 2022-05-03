@@ -1,59 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@500;900&display=swap');
 
-.maindiv {
-    background-color: rgb(34, 33, 58);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    height: fit-content;
-    width: fit-content;
-    margin: 0 auto;
-    display: block;
-    border: solid 5px rgba(255, 255, 255, 0.562);
-    border-radius: 10px;
+
+@keyframes textrainbow {
+    0% {color:rgb(33, 179, 40)}
+    25% {color: rgb(204, 195, 67);}
+    50% {color: rgb(79, 90, 189);}
+    75% {color:rgb(223, 126, 0)}
+    100% {color:rgb(33, 179, 40)}
+}
+
+li {
+    background-color: rgb(41, 41, 41);
     text-align: center;
-    margin-top: 2cm;
-    transition-duration: 250ms;
+    color: rgb(201, 201, 201);
+    font-size: 30px;
+    background-color: rgb(29, 29, 29);
 }
 
 img {
-    height:100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
 }
 
-.mybtn {
-    background-color: rgb(34, 33, 58);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    height: 2cm;
-    width: 5cm;
-    margin: 0 auto;
+button {
+    background-color: rgb(41, 41, 41);
+    border: solid 2px black;
     display: block;
-    border: solid 5px rgba(255, 255, 255, 0.562);
     text-align: center;
-    margin-top: 2cm;
-    transition-duration: 250ms;
+    width:fit-content;
+    height:fit-content;
+    transition-duration: 100ms;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: "Roboto", "sans-serif";
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(201, 201, 201);
 }
 
-.mybtn:hover {
-    border-color: white;
-    background-color: rgb(75, 73, 122);
-    box-shadow: 15px 0px 0px rgb(36, 36, 61);
+button:hover {
+    background-color: rgb(73, 73, 73);
 }
 
-.mybtn:active {
-    width: 6cm
+button:active {
+    background-color: rgb(134, 134, 134);
 }
 
 body {
-    background-color: rgb(26, 26, 26);
+    font-family: "Roboto", "sans-serif";
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(19, 19, 19);
+    
 }
 
-p {
-    margin: 50px auto;
+.title {
+    background-color: rgb(48, 48, 48);
+    margin: 0 auto;
+    display:block;
+    color: rgb(230, 230, 230);
+    text-align: center;
 }
 
-.maindiv:hover {
-    border-color: white;
-    background-color: rgb(75, 73, 122);
-    box-shadow: 15px 0px 0px rgb(36, 36, 61);
+.aboutme {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(201, 201, 201);
+    background-color: rgb(29, 29, 29);
+}
+
+
+.hello {
+    font-size: 50px;
+    color: rgb(0, 221, 11);
+    animation-name: textrainbow;
+    animation-duration: 10s;
+    animation-direction: normal, reverse;
+    animation-iteration-count: infinite;
 }
