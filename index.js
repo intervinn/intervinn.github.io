@@ -39,3 +39,18 @@ document.getElementById("toggle").addEventListener("click", (e) => {
         isLightMode = false
     }
 })
+
+document.getElementById("what").addEventListener("click", (e) => {
+    document.getElementById("whatdiv").scrollIntoView(
+        {
+            behavior: "smooth"
+        }
+    )
+})
+document.getElementById("how").addEventListener("click", (e) => {
+    document.getElementById("howdiv").scrollIntoView(
+        {
+            behavior: "smooth"
+        }
+    )
+})

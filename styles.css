@@ -1,21 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
+html,body {
+    width: 100%;
+}
+
 body {
-  background-color: rgb(100,150,200);
+  background-color: rgb(66, 104, 142);
+  transition-duration: 250ms;
 }
 
 .card {
-  margin: 10px auto;
-  background-color: rgba(255,255,255,0.5);
-  width: fit-content;
-  text-align: center;
-  padding: 5px;
-  /* border: solid 5px rgba(4, 10, 36, 0.787); */
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  font-family: 'Nunito', sans-serif;
+    margin: 5rem auto;
+    background-color: rgba(255,255,255,0.5);
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    /* border: solid 5px rgba(4, 10, 36, 0.787); */
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card p {
+    transition-duration: 250ms;
+}
+.card h1 {
+    transition-duration: 250ms;
 }
 
 .card img {
@@ -25,7 +37,9 @@ body {
 }
 
 .navbox {
-    background-color: rgba(164, 220, 255, 0.399);
+    position:fixed;
+    width: 100%;
+    background-color: rgba(45, 79, 100, 0.775);
 }
 .navbox button {
     background-color: #ffffff69; /* Green */
@@ -38,7 +52,7 @@ body {
     transition-duration: 150ms;
 }
 
-.togglemode:hover {
+.navbox button:hover {
     background-color: rgba(165, 174, 212, 0.51);
 }
 
