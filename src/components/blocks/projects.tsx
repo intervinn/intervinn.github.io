@@ -37,6 +37,12 @@ const projects = [
         description: "A gamejam project, me and my friends got 1st place and 1000 robux each."
     },
     {
+        name: "Wirebox",
+        link: "https://pesde.dev/packages/intervinn/wirebox",
+        techs: "luau",
+        description: "Constructor-based Dependency Injection for Luau"
+    },
+    {
         name: "Indium",
         link: "https://github.com/intervinn/indium",
         techs: "luau",
