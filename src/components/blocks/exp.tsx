@@ -3,23 +3,16 @@ const experience = [
     {
         name: "PFTracker",
         link: "https://tracker.project-flight.com",
-        time: "March 2025 - Now",
+        time: "March 2025 - Present",
         techs: "go redis docker pg ts",
-        description: "Backend Developer. Working on V2 API, internal and related infrastructure (PFScope, PFATC)"
-    },
-    {
-        name: "Trimego",
-        link: "",
-        time: "April 2024 - Now",
-        techs: "go cs redis docker pg ts",
-        description: "Lead Backend Developer."
+        description: "Backend & Infra"
     },
     {
         name: "Check It Containment",
         link: "https://www.roblox.com/communities/6016348/Check-It-Containment-Corporation#!/about",
-        time: "January 2025 - Now",
+        time: "January 2025 - Present",
         techs: "go luau",
-        description: "Senior Developer. Worked on V1R and currently working on Site ORCA. Also handling off-platform things like a webhook proxy server."
+        description: "Senior Developer. Worked on V1R and a custom webhook proxy"
     },
     {
         name: "Amicitia Devs",
