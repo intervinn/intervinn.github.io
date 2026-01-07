@@ -14,7 +14,7 @@ export default function About() {
                 Over the years I spent most of time working on small and forgetful projects. I tried a lot of programming languages and technologies before stepping on a solid ground and learning more advanced topics.
             </p>
             <p className="mt-2">
-                I primarily work in Go, Luau and TypeScript, however I also know C#, C++, C, Java, Kotlin and a little of Rust.
+                I primarily work in Go, C#, Luau and TypeScript, but I can also work with C, C++, Java, Kotlin and Rust.
                 I usually learn new things on the way.
                 Despite my artist background, I'm not a fan of frontend development. 
             
