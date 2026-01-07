@@ -15,9 +15,7 @@ export default function About() {
             </p>
             <p className="mt-2">
                 I primarily work in Go, C#, Luau and TypeScript, but I can also work with C, C++, Java, Kotlin and Rust.
-                I usually learn new things on the way.
-                Despite my artist background, I'm not a fan of frontend development. 
-            
+                Despite my artist background, I'm not a fan of frontend development.
             </p>
         </div>
     )
