@@ -12,7 +12,7 @@ const experience = [
         link: "https://www.roblox.com/communities/6016348/Check-It-Containment-Corporation#!/about",
         time: "January 2025 - Present",
         techs: "go luau",
-        description: "Senior Developer. Worked on V1R and a custom webhook proxy"
+        description: "Lead Developer. Worked on off-roblox infrastructure, working on Upsilon"
     },
     {
         name: "Amicitia Devs",
