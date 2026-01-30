@@ -10,7 +10,7 @@ export default function Head() {
                 </p>
                 <p className="mt-3">
                     I'm passionate about open source and my dream is to create useful software and libraries. 
-                    My PC dual boots Windows and Arch Linux and I also own a macbook.
+                    I primarily use Arch Linux but I also have a bootable Windows and a MacOS Device.
                 </p>
                 <p className="mt-3">
                     I manage a <a className="text-accent hover:underline" href="https://discord.gg/gqrUH3hFhf"> Minecraft SMP </a>
