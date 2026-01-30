@@ -20,7 +20,7 @@ export default function Head() {
                 <p className="mt-3">
                     Also check out my friends websites:
                     <a className="text-accent hover:underline" href="https://kotyarendj.github.io"> Kot</a>,
-                    <a className="text-accent hover:underline" href="https://tabller.github.io/SimpleWebsite/index.html"> Tomat</a>
+                    <a className="text-accent hover:underline" href="https://tabller.github.io"> Tomat</a>
                     <br/>
                     Other projects by my friends: <a className="text-accent hover:underline" href="https://patreon.com/seathar">Seathar</a>
                 </p>
