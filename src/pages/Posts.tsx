@@ -17,7 +17,7 @@ export default function Posts() {
     }, [])
 
     return (
-        <div className="bg-bg min-w-screen min-h-screen flex justify-center items-center flex-col text-text">
+        <div className="bg-bg min-h-screen flex justify-center items-center flex-col text-text">
             <Navbar/>
             <div className="bg-bg2 min-h-screen w-full lg:w-[64rem] px-12 py-12 flex items-center flex-col">
                 <h1 className="text-3xl font-bold">Posts</h1>

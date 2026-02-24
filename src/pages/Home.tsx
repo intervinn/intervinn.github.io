@@ -6,7 +6,7 @@ import Navbar from "../components/nav"
 
 function Home() {
   return (
-    <div className="bg-bg min-w-screen min-h-screen flex justify-center items-center flex-col">
+    <div className="bg-bg min-h-screen flex justify-center items-center flex-col">
       <Navbar/>
       <div className="bg-bg2 min-h-screen w-full lg:w-[64rem] px-12 py-12">
         <Head/>
