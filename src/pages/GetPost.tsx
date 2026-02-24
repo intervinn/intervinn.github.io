@@ -10,7 +10,7 @@ export function Post(props: any) {
     console.log(name)
      /* @vite-ignore */
     const dataPromise = useMemo(() => {
-        const key = `/src/assets/posts/${name}.md`
+        const key = `/public/posts/${name}.md`
         return modules[key]().catch(err => {error: err})
     }, [name])
 

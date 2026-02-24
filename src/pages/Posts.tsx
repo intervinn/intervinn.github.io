@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/nav";
 import { Link } from "wouter";
 
-export const modules = import.meta.glob("/src/assets/posts/*.md")
+export const modules = import.meta.glob("/public/posts/*.md")
 
 export default function Posts() {
     const [titles, setTitles] = useState<string[]>([])
