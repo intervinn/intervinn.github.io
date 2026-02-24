@@ -2,6 +2,7 @@ import { Suspense, use, useMemo } from "react";
 import Navbar from "../components/nav";
 import Loading from "./Loading";
 import { Redirect, useLocation } from "wouter";
+import { modules } from "./Posts";
 
 export function Post(props: any) {
     const name = props.name
@@ -9,10 +10,11 @@ export function Post(props: any) {
     console.log(name)
      /* @vite-ignore */
     const dataPromise = useMemo(() => {
-        return import(`/src/assets/posts/${name}.md`).catch(err => {error: err})
+        const key = `/src/assets/posts/${name}.md`
+        return modules[key]().catch(err => {error: err})
     }, [name])
 
-    const module = use(dataPromise)
+    const module: any = use(dataPromise)
 
     if (module === undefined || module.error) {
         return <Redirect to="/not-found"/>
