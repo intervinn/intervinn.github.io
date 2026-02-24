@@ -1,10 +1,10 @@
-import About from "./components/blocks/about"
-import Experience from "./components/blocks/exp"
-import Head from "./components/blocks/head"
-import Projects from "./components/blocks/projects"
-import Navbar from "./components/nav"
+import About from "../components/blocks/about"
+import Experience from "../components/blocks/exp"
+import Head from "../components/blocks/head"
+import Projects from "../components/blocks/projects"
+import Navbar from "../components/nav"
 
-function App() {
+function Home() {
   return (
     <div className="bg-bg min-w-screen min-h-screen flex justify-center items-center flex-col">
       <Navbar/>
@@ -18,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

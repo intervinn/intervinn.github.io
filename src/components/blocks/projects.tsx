@@ -61,12 +61,12 @@ export default function Projects() {
         <div className="text-text font-nunito h-fit w-full mt-5">
             <h1 className="text-3xl font-bold">Projects</h1>
             <div className="ml-12 mt-3">
-                {projects.map(item => 
-                    <div className="flex flex-col mt-3">
+                {projects.map((item, i) => 
+                    <div key={i} className="flex flex-col mt-3">
                         <div className="flex flex-row">
                             <a className="font-bold text-2xl hover:underline w-fit" href={item.link}>{item.name}</a>
-                            {item.techs.split(" ").map(tech => 
-                                <img className="object-contain w-6 mx-2" src={`${tech}.png`}/>
+                            {item.techs.split(" ").map((tech, i) => 
+                                <img key={i} className="object-contain w-6 mx-2" src={`${tech}.png`}/>
                             )}
                         </div>
                         <p>{item.description}</p>
