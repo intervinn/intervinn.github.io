@@ -9,7 +9,7 @@ export default function Posts() {
 
     useEffect(() => {
         const titles = []
-        for (const [k, v] of Object.entries(modules)) {
+        for (const [k, _] of Object.entries(modules)) {
             const pieces = k.split("/")
             titles.push(pieces[pieces.length-1].split(".")[0])
         }

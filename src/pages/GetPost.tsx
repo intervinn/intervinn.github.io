@@ -21,8 +21,8 @@ export function Post(props: any) {
     return <module.ReactComponent/>
 }
 
-export default function GetPost(props: any) {
-    const [location, setLocation] = useLocation()
+export default function GetPost(_: any) {
+    const [location] = useLocation()
     const name = location.split("/")[location.split("/").length-1]
 
     return <Suspense fallback={<Loading/>}>
