@@ -6,8 +6,6 @@ import { modules } from "./Posts";
 
 export function Post(props: any) {
     const name = props.name
-
-    console.log(name)
      /* @vite-ignore */
     const dataPromise = useMemo(() => {
         const key = `/public/posts/${name}.md`
