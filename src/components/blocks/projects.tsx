@@ -13,18 +13,6 @@ const projects = [
         description: "A server-side Minecraft Fabric mod that adds a lives limit similar to Grian's Life Series. Was made for one of seasons on my SMP."
     },
     {
-        name: "Noorse",
-        link: "https://github.com/intervinn/noorse",
-        techs: "go docker mysql",
-        description: "A small Discord bot for storing member points on your server. Made for and is widely used at Check It Containment."
-    },
-    {
-        name: "Expr",
-        link: "https://github.com/intervinn/expr",
-        techs: "cs",
-        description: "My first interpreter with a complete lexer and parser. Consists of only number and strings literals and call expressions with possible custom functions."
-    },
-    {
         name: "Imoji",
         link: "https://github.com/intervinn/imoji",
         techs: "ts react tailwind",
@@ -47,12 +35,6 @@ const projects = [
         link: "https://github.com/intervinn/indium",
         techs: "luau",
         description: "Backend library for Lune similar to Express."
-    },
-    {
-        name: "Arc",
-        link: "https://github.com/intervinn/arc",
-        techs: "go",
-        description: "Simple router wrapped around net/http, inspired by Fiber and Gin."
     }
 ]
 
