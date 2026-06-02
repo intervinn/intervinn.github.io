@@ -4,15 +4,15 @@ const experience = [
         name: "PFTracker",
         link: "https://tracker.project-flight.com",
         time: "March 2025 - Present",
-        techs: "go redis docker pg ts",
-        description: "Backend & Infra"
+        techs: "go luau redis docker pg ts nats",
+        description: "Backend and infrastructure"
     },
     {
         name: "Check It Containment",
         link: "https://www.roblox.com/communities/6016348/Check-It-Containment-Corporation#!/about",
-        time: "January 2025 - Present",
+        time: "January 2025 - March 2026",
         techs: "go luau",
-        description: "Lead Developer. Worked on off-roblox infrastructure, working on Upsilon"
+        description: "Lead Developer. Worked on off-roblox infrastructure, wrote foundational codebase for Upsilon"
     },
     {
         name: "Amicitia Devs",

@@ -9,8 +9,7 @@ export default function Head() {
                     My work covers a lot of fields: systems programming, backend development, game development, sometimes devops and embedded.
                 </p>
                 <p className="mt-3">
-                    I'm passionate about open source and my dream is to create useful software and libraries. 
-                    I primarily use Arch Linux but I also have a bootable Windows and a MacOS Device.
+                    I'm passionate about open source, I enjoy developing interesting libraries and systems.
                 </p>
                 <p className="mt-3">
                     I manage a <a className="text-accent hover:underline" href="https://discord.gg/gqrUH3hFhf"> Minecraft SMP </a>

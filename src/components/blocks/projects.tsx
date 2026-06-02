@@ -4,7 +4,7 @@ const projects = [
         name: "ABQ",
         link: "https://github.com/intervinn/abq",
         techs: "go luau",
-        description: "Go to Luau transpiler including macros, polyfills and CLI. Currently at early development."
+        description: "Go to Luau transpiler including macros, polyfills and CLI"
     },
     {
         name: "lv3",
@@ -16,7 +16,7 @@ const projects = [
         name: "Noorse",
         link: "https://github.com/intervinn/noorse",
         techs: "go docker mysql",
-        description: "A small Discord bot for storing member points on your server. Made for and is widely used at Check It Containment."
+        description: "A small Discord bot for storing member points on your server. Formerly made for Check It Containment, where it was widely used until I took it down over my sign of leaving"
     },
     {
         name: "Expr",
@@ -34,7 +34,7 @@ const projects = [
         name: "Brew a soup at 9pm",
         link: "https://www.roblox.com/games/124645588131182/brew-a-soup-at-9-pm",
         techs: "luau",
-        description: "A gamejam project, me and my friends got 1st place and 1000 robux each."
+        description: "A gamejam project, me and my friends got 1st place and 1000 robux each"
     },
     {
         name: "Wirebox",
@@ -52,7 +52,7 @@ const projects = [
         name: "Arc",
         link: "https://github.com/intervinn/arc",
         techs: "go",
-        description: "Simple router wrapped around net/http, inspired by Fiber and Gin."
+        description: "Simple router wrapped around net/http, inspired by Fiber and Gin"
     }
 ]
 
